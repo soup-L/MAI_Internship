@@ -4,9 +4,10 @@
 实现Graph RAG，部署图数据库，利用LLM构建知识图谱并简单实现KGQA问答任务。
 - 代码：RAG-gov_report.ipynb（数据：gov_report1）
 - 参考：https://siwei.io/graph-rag/
-### Demo2.RAG-finetune
+### Demo2.RAG-Finetune
 参考RAG论文，基于Bert问题编码器和Bart生成器，使用中文数据集，端到端微调RAG，用于检索和生成。
-- 代码：
+- 代码：RAG-Finetune
+- 进行Finetune：finetune_rag_ray.sh；展示RAG生成效果：inference.ipynb
 - 参考：https://arxiv.org/abs/2005.11401
 - https://github.com/huggingface/transformers/tree/main/examples/research_projects/rag
 ### Demo3.Agent多轮对话
