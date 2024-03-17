@@ -12,5 +12,5 @@
 - https://github.com/huggingface/transformers/tree/main/examples/research_projects/rag
 ### Demo3.Agent多轮对话
 参与写作助手Agent项目，实现并测试Function calling函数调用，通过多轮对话方式实现Agent流程。
-- 代码：
+- 代码：Agent多轮对话.ipynb
 - 参考：ChatGLM3 Function calling功能介绍与Agent实战.pdf
